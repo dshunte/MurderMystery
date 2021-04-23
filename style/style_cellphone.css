@@ -1,0 +1,54 @@
+body {
+	background-image: url("../images/cellphone.jpg");	
+	background-repeat: no-repeat;
+	background-size: 60%;
+	
+	font-family: Arial, Helvetica,sans-serif;
+	list-style-type: none; /* Remove bullets */
+
+}
+
+a{
+	text-decoration: none;
+	font-size:25px;
+	text-align:center;	
+	color:Yellow;
+	;
+}
+
+a:hover{
+	color:green;
+}
+
+@media(min-width:468px){
+   .container-1 {
+      display:flex;
+      padding-left:18%;
+      padding-right: 10%; 
+      padding-top:31%;
+      text-align:center; 
+              
+     
+    }  
+
+  h1{
+    color:red;
+    font-size:35px;
+  }   
+
+  p{
+    color:black;
+    font-size:25px;
+
+
+  }
+ 
+  .choice-1 {
+  
+    background-color:grey;
+   }
+
+   .choice-2 {
+
+    background-color:grey;
+   }

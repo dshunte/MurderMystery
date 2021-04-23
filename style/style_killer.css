@@ -1,0 +1,56 @@
+body {
+	background-image: url("../images/killer.jpg");	
+	background-repeat: no-repeat;
+	background-size: 70%;
+		
+	font-family: Arial, Helvetica,sans-serif;
+	list-style-type: none; /* Remove bullets */
+}
+
+a{
+	text-decoration: none;
+	font-size:25px;
+	text-align:center;	
+	color:Yellow;
+	;
+}
+
+a:hover{
+	color:green;
+}
+
+@media(min-width:468px){
+   .container-1 {
+      padding-left:30%; 
+      padding-right:15%;
+      padding-bottom:40%;     
+      display: flex;        
+     
+    }  
+
+  .container-1 div { 
+  border:2px grey solid;  
+  background-color: red;
+  }
+   
+  .container-1 p{
+    color:black;
+    font-size: 30px;
+
+  }
+
+  .container-2 div{    
+    display: flex;
+    justify-content: center;    
+    border:2px black solid;
+  }
+
+  .choice-1 {
+    flex:1;
+    background-color:grey;
+   }
+
+   .choice-2 {
+    flex:1;
+    background-color:grey;
+   }

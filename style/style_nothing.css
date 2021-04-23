@@ -1,0 +1,54 @@
+body {
+	background-image: url("../images/nothing.jpg");	
+	background-repeat: no-repeat;
+	background-size: 60%;
+	
+	font-family: Arial, Helvetica,sans-serif;
+	list-style-type: none; /* Remove bullets */
+
+}
+
+a{
+	text-decoration: none;
+	font-size:25px;
+	text-align:center;	
+	color:Yellow;
+	;
+}
+
+a:hover{
+	color:green;
+}
+
+@media(min-width:468px){
+   .container-1 {
+      padding-left:50%;
+      padding-right: 10%; 
+      padding-top:10%;
+      padding-bottom:27%;     
+      display: flex;        
+     
+    }  
+
+  .container-1 div { 
+    
+  background-color: white;
+	}
+   }
+
+  .container-1 h1{
+    color:red;
+    font-size:22px;
+  }   
+
+  
+
+  .choice-1 {
+   	flex:1;
+   	background-color:grey;
+    text-align:center;
+   }
+
+ 
+
+ 

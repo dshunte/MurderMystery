@@ -1,1 +1,76 @@
+body {
+	/*
+	@media(min-width:468px){
+	background-color:grey;
+	color:red;
+	font-family: Arial, Helvetica,sans-serif;
+	*/
+}
+/*.mainbox {
+	display:flex;
+}
+*/
+.main_header {
+	background-image: url("../images/crimescene.jpg");	
+	background-repeat: no-repeat;	
+	background-size: cover;
+	width:800px;
+	height:200px;
+	padding-bottom:200px;
+/*	background-color:black;
+	color:red;	
+	text-align:center;
+*/
+}
 
+.main_header h1 {
+	font-size:30px;
+	text-align:left;
+	
+}
+.main_header h2 {
+	font-size:30px;
+	text-align:left;
+	padding-top:8px;
+}
+
+.main_header h3 {
+	font-size:30px;
+	text-align:left;
+	
+}
+
+a{
+	text-decoration: none;
+	font-size:30px;
+	text-align:center;	
+	color:grey;
+	;
+}
+
+a:hover{
+	color:green;
+}
+
+
+.game_start h1{
+	background-color: yellow
+	width:800px
+	height:100px;
+	padding-top:200px;
+	font-size:50px;
+	color:red;
+	text-align:center;
+}
+
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+.button:hover{
+	background:red;
+	color:#fff;
+}

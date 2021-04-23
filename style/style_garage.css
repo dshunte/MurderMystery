@@ -1,0 +1,101 @@
+body {
+	background-image: url("../images/garage.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	font-family: Arial, Helvetica,sans-serif;
+	list-style-type: none; /* Remove bullets */
+
+}
+
+a{
+	text-decoration: none;
+	font-size:25px;
+	text-align:center;	
+	color:Yellow;
+	;
+}
+
+a:hover{
+	color:green;
+}
+
+@media(min-width:468px){
+   .container-1 {
+      padding-left:40%; 
+      padding-bottom:50%;     
+      display: flex;     
+      background-color: none;
+      
+     
+    }  
+
+  .container-1 div, .container-2 div{ 
+  border:2px black solid;  
+	}
+    
+  .main_box {
+  	background-color:white;
+  	text-align: center;
+
+  }
+  .main_box h1{
+  	color:red;
+  	font-size:35px;
+  }
+
+  .main_box p{
+  	color:purple;
+  	font-size: 50px;
+  }
+
+  .container-2 div{
+  	display: flex;
+  	justify-content: center;  
+  }      
+
+  .choice-1 {
+   	flex:1;
+   	background-color:grey;
+
+  }
+
+  .choice-2 {
+   	flex:1;
+   	background-color:grey;   	   
+  }
+
+  .choice-3 {
+   	flex:1;
+   	background-color:grey;
+  }
+
+  .choice-4 {
+    flex:1;
+   	background-color:grey;
+  } 
+	
+  .container-3 div{
+  	  border: 1px white solid;  	    
+      display: flex;        
+      justify-content: space-around;
+      
+ 	}
+
+  .choice-5 {
+  
+   	background-color:black;
+  }
+
+  .choice-6 {
+ 	
+   	background-color:black;
+  }
+
+  .choice-7 {
+  
+  	background-color:black;
+  }   
+
+}
+
